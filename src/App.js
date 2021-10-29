@@ -18,11 +18,14 @@ import { ThirdFormPostProduct } from './components/ThirdFormPostProduct';
 import {Slider} from "./components/Slider"
 import {HomeLogged} from "./components/pages/Home/HomeLogged"
 import { HomeNotLogged } from './components/pages/Home/HomeNotLogged';
-
+import {RecommendedProductSection} from "./components/pages/Sections/RecommendedProductsSection"
+import {CategoriesSection} from "./components/pages/Sections/CategoriesSection"
+import {CategoriesHomeSectionLogged} from "./components/pages/Sections/CategoriesHomeSectionLogged"
+import {CategoriesHomeSectionNotLogged} from "./components/pages/Sections/CategoriesHomeSectionNotLogged"
 function App() {
   return (
     <div>
-      <HomeNotLogged/>
+      <CategoriesHomeSectionNotLogged />
 
     </div>
 
